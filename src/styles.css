@@ -1,1 +1,90 @@
-/* You can add global styles to this file, and also import other style files */
+/* BOOTSTRAP ICON */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+body{
+    box-sizing: border-box;
+}
+.image-container{
+    background: url(https://cdn2.excelsior.com.mx/media/pictures/2020/11/11/2476320.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+/* CONTENEDOR PRINCIPAL DE FORMULARIO */
+.form-container{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+/*DISEÑO DE CONTENEDOR DE FORMULARIO*/
+.adjust-window{
+    background-color: #FFB366;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding-top: 15px;
+}
+.adjust-window h1{
+    font-family:  Helvetica,Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.adjust-window h4{
+    font-family:  Helvetica,Arial, sans-serif;
+    font-size: 15px;
+}
+/* LOGOS */
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 30px;
+
+}
+/*DISEÑO DE INPUT*/
+.form-box .form-input{
+    position: relative;
+}
+
+
+.form-box .form-input input{
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    background-color: #FFF4C3;
+    padding-left: 40px;
+}
+.form-box .form-input::placeholder{
+    padding-left: 0px;
+}
+.form-box .form-input input:focus, .form-box .form-input input:valid{
+    border-bottom: 2px solid #48403d;
+}
+
+
+/* ICONOS DE LOS INPUT */
+/* .form-box .form-input */
+span{
+    position: absolute;
+    padding-left: 10px;
+    color: #777;;
+}
+
+/* LINK CONTRASEÑA*/
+
+.forget-link{
+    text-decoration: none;
+}
+.forget-link:hover{
+    text-decoration: none;
+    font-weight: bold;
+}

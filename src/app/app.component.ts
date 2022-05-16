@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'main-inf';
+  titulo= 'Bienvenido';
+  instruccion='Ingresa al Sistema';
 }
